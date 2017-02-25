@@ -3,20 +3,14 @@ filetype off                  " required
 " Vundle "{{{
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" Plugin 'zefei/vim-wintabs'
 " Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-" Plugin 'Lokaltog/vim-powerline'
-Plugin 'noah/vim256-color'
-"Plugin 'qualibyte/colorstepper'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'wincent/terminus'
-" Plugin 'ap/vim-buftabline'
-" Plugin 'fholgado/minibufexpl'
 call vundle#end()
 "}}}
 " General settings "{{{
@@ -275,7 +269,6 @@ endfunction
   endfunction
   " }}}
 " }}}
-"}}}
 "{{{ Keybinds
   map <f5> :NERDTreeToggle<CR>
   map <f6> :tabprevious<CR>
