@@ -71,6 +71,7 @@ fun s:gui(color)
   if &background == "dark"
     return a:color
   endif
+" TEST
 
   if a:color == s:gui00
     return s:gui07
